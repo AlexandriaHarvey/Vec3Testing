@@ -2,7 +2,7 @@
 TARGET=test
 SOURCES+=*.cpp
 HEADERS+=*.h
-OTHER_FILES += README.md
+OTHER_FILES += README.md .gitignore
 CONFIG-=app_bundle
 QMAKE_CXXFLAGS += -std=c++1z
 QMAKE_CXXFLAGS += -Wall -Wextra
